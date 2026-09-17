@@ -34,12 +34,7 @@
             {
                 Console.BackgroundColor = ConsoleColor.Red;
             }
-
             Console.WriteLine("Sinu jalanumber on " + jn);
-
-
-
-
         }
     }
 }

@@ -9,17 +9,16 @@
             //number tuleb ära parsida
             //if ja else juures toimub kontroll
             string input = Console.ReadLine();
-
             if (float.TryParse(input, out float num))
-            {
-                
+            {          
                 if (float.IsInteger(num / 2))
                 {
-                    Console.WriteLine("number on paaris");
+                    Paariline();
+                    // siia tuleb välja kutsuda meetod mis ütleb et see on paarisarv
                 }
                 else
                 {
-                    Console.WriteLine("number on paaritu");
+                    Paaritu();
                 }
             }
             else
@@ -27,6 +26,15 @@
                 Console.WriteLine("see ei ole number");
             }
 
+        }
+
+        static void Paariline()
+        {
+            Console.WriteLine("number on paaris");
+        }
+        static void Paaritu()
+        {
+            Console.WriteLine("number on paaritu");
         }
     }
 }

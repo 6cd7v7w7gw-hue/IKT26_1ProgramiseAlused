@@ -10,7 +10,7 @@
             //if ja else juures toimub kontroll
             string input = Console.ReadLine();
             if (float.TryParse(input, out float num))
-            {          
+            {
                 if (float.IsInteger(num / 2))
                 {
                     Paariline();

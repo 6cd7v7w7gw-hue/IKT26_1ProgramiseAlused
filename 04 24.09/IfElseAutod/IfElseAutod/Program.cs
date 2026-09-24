@@ -13,9 +13,6 @@
             Console.WriteLine("valikus on BMW, Audi, Porsche, Fiat ja Skoda");
             Console.WriteLine("");
             string mark = Console.ReadLine();
-            Console.WriteLine("");
-            Console.WriteLine("valisid " + mark);
-            Console.WriteLine("");
             if (mark == "skoda")
             {
                 Console.WriteLine("missugune mudel");
@@ -36,6 +33,23 @@
                     Console.WriteLine("mingi teine mudel");
                 }
             }        
+            else if (mark == "bmw")
+            {
+                Console.WriteLine("valisid BMW");
+            }
+            else if (mark == "audi")
+            {
+                Console.WriteLine("valisid audi");
+            }
+            else if (mark == "fiat")
+            {
+                Console.WriteLine("valisid fiat");
+            }
+            else
+            {
+                Console.WriteLine("valisid mingi teine automark");
+
+            }
         }
     }
 }

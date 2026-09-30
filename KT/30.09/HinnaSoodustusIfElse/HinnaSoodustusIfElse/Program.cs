@@ -23,7 +23,7 @@
 
                 if (onKliendiKaart)
                 {
-                    if (sum > 100)
+                    if (sum >= 100)
                     {
                         finalSum = sum * 0.8f;
                     }

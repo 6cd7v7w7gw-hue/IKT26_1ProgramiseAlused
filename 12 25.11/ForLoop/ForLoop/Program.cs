@@ -24,7 +24,7 @@
                 {
                     bool thing =
                         (row == 2 && location == 1) || 
-                        (row == height -1 && location == 2 * row) ||
+                        (row == height -1 && location == 2 * row - 1) ||
                         (row == height && location == row);
 
                     Console.Write(thing ? "o":"*");
